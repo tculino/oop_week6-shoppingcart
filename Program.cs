@@ -16,7 +16,7 @@ namespace OOP6
             Food b = new Food("can");
             Food c = new Food("orange");
             cart.AddCart(a);
-            cart.AddCart(b);
+            cart.AddCart(b); 
             cart.AddCart(c);
             foreach (Item index in cart.ACart)
             {
