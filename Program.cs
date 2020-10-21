@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +18,7 @@ namespace OOP6
             cart.AddCart(a);
             cart.AddCart(b);
             cart.AddCart(c);
-            foreach (Item index in cart.aCart)
+            foreach (Item index in cart.ACart)
             {
                 totalCost += index.Cost;
             }
