@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,7 @@ namespace OOP6
     {
         public double Cost { get; set; }
         public string Name { get; set; }
-        public Item(string name) { }
+        public Item(string name) { Name = name; }
         //public double Price() { return Cost; }
     }
 }
