@@ -11,10 +11,14 @@ namespace OOP6
         static void Main(string[] args)
         {
             double totalCost = 0;
-            List<Item> cart = new List<Item>();
-            Orange a = new Orange();
-            cart.Add(a);
-            foreach (Item index in cart)
+            Cart cart = new Cart();
+            Product a = new Product("chair");
+            Food b = new Food("can");
+            Food c = new Food("orange");
+            cart.AddCart(a);
+            cart.AddCart(b);
+            cart.AddCart(c);
+            foreach (Item index in cart.aCart)
             {
                 totalCost += index.Cost;
             }
