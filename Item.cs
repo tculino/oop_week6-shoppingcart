@@ -9,7 +9,8 @@ namespace OOP6
     public abstract class Item
     {
         public double Cost { get; set; }
-        public Item() { }
-        public double Price() { return Cost; }
+        public string Name { get; set; }
+        public Item(string name) { }
+        //public double Price() { return Cost; }
     }
 }
